@@ -1,0 +1,8 @@
+{
+  "name": "save.js",
+  "version": "0.0.1-beta.1",
+  "description": "Saving this pre-release space with save.js.",
+  "main": "index.js",
+  "homepage": "https://savejs.com",
+  "keywords": ["save.js"]
+}

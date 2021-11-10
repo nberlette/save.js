@@ -1,0 +1,35 @@
+{
+  "name": "save.js",
+  "version": "1.0.0",
+  "description": "Save your npm package namespace",
+  "bin": {
+    "save.js": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nberlette/save.js.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "squatter",
+    "save.js"
+  ],
+  "author": "Nicholas Berlette <nick@berlette.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nberlette/save.js/issues"
+  },
+  "homepage": "https://github.com/nberlette/save.js#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "commander": "^2.19.0",
+    "ink": "^0.5.1",
+    "ncp": "^2.0.0",
+    "rimraf": "^2.6.2"
+  }
+}
