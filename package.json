@@ -1,9 +1,12 @@
 {
-  "name": "save.js",
-  "version": "1.0.0",
+  "name": "@savejs/npm",
+  "version": "1.0.0-beta.1",
   "description": "Save your npm package namespace",
   "bin": {
-    "save.js": "bin/index.js"
+    "save-npm": "bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "bin",
