@@ -1,48 +1,39 @@
-# npm-robbery
+# save.js
 
-> A command tool to register npm package name conveniently. 用于辅助快速注册 npm 包名称的命令行工具。
-
-
-[![npm](https://img.shields.io/npm/v/npm-robbery.svg)](https://www.npmjs.com/package/npm-robbery)
-[![npm](https://img.shields.io/npm/dm/npm-robbery.svg)](https://www.npmjs.com/package/npm-robbery)
-
-
+Save your npm package namespace.
 
 ## Install
 
-> **npm i -g npm-robbery**
+```bash
+pnpm -g add save.js
+```
 
-Then get the command tool named `npm-robbery`.
+```bash
+yarn global add save.js
+```
 
-
+```bash
+npm i -g save.js
+```
 
 ## Usage
 
-
 ```bash
-Usage: npm-robbery <pkg>[@ver]
-
-Options:
-  -v, --version  output the version number
-  -h, --help     output usage information
+save.js [@scope/]<package>[@version]
 ```
 
-For example:
+### Examples
 
 ```bash
-npm-robbery my-lodash
+save.js awesome-pkg@0.0.1
+
+ > ... npm publish awesome-pkg@0.0.1
 ```
 
-Then will register package name `my-lodash` with version `0.0.1-beta.1`.
-
-Or
-
-```bash
-npm-robbery my-lodash@0.0.1
-```
-
-
+- - -  
 
 ## License
 
-MIT@[hustcc](https://github.com/hustcc).
+[MIT](https://mit-license.org) © [save.js](https://savejs.com) • inspired by npm-robbery
+
+
