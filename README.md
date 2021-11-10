@@ -1,33 +1,35 @@
-# save.js
+# `@savejs/npm`
 
 Save your npm package namespace.
 
 ## Install
 
 ```bash
-pnpm -g add save.js
+pnpm -g add @savejs/npm
 ```
 
 ```bash
-yarn global add save.js
+yarn global add @savejs/npm
 ```
 
 ```bash
-npm i -g save.js
+npm i -g @savejs/npm
 ```
 
 ## Usage
 
 ```bash
-save.js [@scope/]<package>[@version]
+save-npm [@scope/]<package>[@version]
 ```
 
 ### Examples
 
 ```bash
-save.js awesome-pkg@0.0.1
-
- > ... npm publish awesome-pkg@0.0.1
+save-npm @savejs/npm@0.0.1
+ > ERR 403 Forbidden ...
+ 
+save-npm save-js-npm@0.0.1
+ > ... npm publish save-js-npm@0.0.1
 ```
 
 - - -  
